@@ -8,6 +8,7 @@ a {
     text-decoration: none; 
     color: black;
 }
+
 .nav-bar-container {
     height: 80px;
     width: 100%;
@@ -54,7 +55,46 @@ a {
     margin: auto;
     width: 200px;
     margin-left: 100px;
+}
 
 .hero-buttons {
 
 }
+
+.gallery-container {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row {
+    width: 100%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.column {
+    width: 30%;
+    float: left;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.row img {
+    width: 100%;
+    height: auto;
+}
+
+.column img {
+    
+}
+
+
+
+
+
+
+
