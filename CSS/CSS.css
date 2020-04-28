@@ -12,7 +12,6 @@ a {
 .nav-bar-container {
     height: 80px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .nav-bar-logo {
@@ -28,8 +27,8 @@ a {
 
 .nav-bar-links {
     float: right;
-    border: 1px solid black;
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-left: 1px;
     height: 80px;
     line-height: 80px;
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +37,6 @@ a {
 .hero-container {
     height: 800px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .hero-logo {
@@ -57,14 +55,37 @@ a {
     margin-left: 100px;
 }
 
-.hero-buttons {
-
-}
-
 .gallery-container {
     float: left;
     width: 100%;
     margin-top: 50px;
+}
+
+h1 {
+    margin-left: 38%;
+    margin-right: 38%;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    margin-left: 10%;
+    margin-right: 70%;
+    text-align: center;
+    font-size: 30px;
+}
+
+h5 {
+    margin-left: 70%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 30px;
 }
 
 .row {
@@ -77,7 +98,6 @@ a {
 .column {
     width: 30%;
     float: left;
-    border: 3px solid red;
     display: flex;
     justify-content: center;
     margin-left: 1%;
@@ -88,9 +108,17 @@ a {
     height: auto;
 }
 
-.column img {
-    
+html { 
+    background: url(https://cdn.pixabay.com/photo/2017/07/08/09/49/sky-2483934__340.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
 }
+
+
+
 
 
 
