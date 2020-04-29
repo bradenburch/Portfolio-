@@ -5,29 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="CSS/CSS.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
     <!-- nav bar container -->
-    <div class="nav-bar-container">
-        <div class="nav-bar-logo">
-           <img src="images/ham.svg" alt="logo">
-        </div>
-        <div class="nav-bar-links">
-            <button type="button">Navigation</button>
-        </div>
-        <div class="nav-bar-links">
-            <button type="button">Photos</button>
-        </div>
-        <div class="nav-bar-links">
-            <button type="button">List</button>
-        </div>
-        <div class="nav-bar-links">
-            <a href="Gallery.html">
-                <button type="button">Home</button>
-            </a>
-        </div>
+    <div id="nav-placeholder">
 
     </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
      <!-- hero container -->
      <h1>Portfolio</h1>
      <h2>Theoh Hohal NOhui Nlloha Luhaeqp Ior Volan Mbaoih</h2>
@@ -42,18 +32,35 @@
             <img src="https://cdn.pixabay.com/photo/2018/04/28/03/47/balance-3356549__340.jpg" alt="">
         </div>
         <div>
-            <p>Theoh Hohal NOhui Nlloha Luhaeqp Ior Volan Mbaoih</p>
+            <h3>Theoh Hohal NOhui Nlloha Luhaeqp Ior Volan Mbaoih Theoh Hohal NOhui Nlloha Luhaeqp Ior Volan Mbaoih</h3>
         </div>
     </div>
 
-    <footer>
-        <div class="footer-container">
-            <img src="images/icon-1.svg" width="60plx" alt="logo">
-            <img src="images/icon-2.svg" width="60plx" alt="">
-            <img src="images/scroll.svg" width="29plx" height="50px" alt="">
+    <div id=footer style="width:100%; height:120px; margin:auto; background-color:rgb(50,50,50);">
+        <div style="display:inline-block; width:30%">
+            <p style="text-align:center">
+                <a href="#">
+                    <img src="images/icon-1.svg">
+                </a>
+            </p>
         </div>
-    </footer>
-
+        <div style="display:inline-block; width:30%">
+            <p style="text-align:center">
+                <a href="#">
+                    <img src="images/scroll.svg">
+                </a>
+            </p>
+        </div>
+        <div style="display:inline-block; width:30%">
+            <p style="text-align:center">
+                <a href="#">
+                    <img src="images/icon-2.svg">
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    
 
     
 </body>

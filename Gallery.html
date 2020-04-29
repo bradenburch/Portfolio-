@@ -5,28 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="CSS/CSS.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
     <!-- nav bar container -->
-    <div class="nav-bar-container">
-        <div class="nav-bar-logo">
-           <img src="images/ham.svg" alt="logo">
-        </div>
-        <div class="nav-bar-links">
-            <button type="button">Navigation</button>
-        </div>
-        <div class="nav-bar-links">
-            <button type="button">Photos</button>
-        </div>
-        <div class="nav-bar-links">
-            <button type="button">List</button>
-        </div>
-        <div class="nav-bar-links">
-            <a href="Gallery.html">
-                <button type="button">Home</button>
-            </a>
-        </div>
+    <div id="nav-placeholder">
+
     </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
    
      <!-- gallery container -->
     <div class="gallery-container">
@@ -48,6 +39,35 @@
             </div>
         </div>
     </div>
+
+    <div>
+        <div class="under-hero">
+            <h4>jfjfjf fjfjfjf fjfjfjf fjfjfjf fjfjfjf fjfjfjf fjfjfjf jfjfjf fjfjfjf fjfjfjf fjfjfjf fjfjfjf fjfjfjf fjfjfjf</h4>
+        </div>
+    </div>
     
+    <div id=footer style="width:100%; height:120px; margin:auto; background-color:rgb(50,50,50);">
+        <div style="display:inline-block; width:30%">
+            <p style="text-align:center">
+                <a href="#">
+                    <img src="images/icon-1.svg">
+                </a>
+            </p>
+        </div>
+        <div style="display:inline-block; width:30%">
+            <p style="text-align:center">
+                <a href="#">
+                    <img src="images/scroll.svg">
+                </a>
+            </p>
+        </div>
+        <div style="display:inline-block; width:30%">
+            <p style="text-align:center">
+                <a href="#">
+                    <img src="images/icon-2.svg">
+                </a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>

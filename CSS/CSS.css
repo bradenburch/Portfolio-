@@ -21,7 +21,6 @@ a {
 .nav-bar-logo {
     float: left;
     height: 80px;
-    border: 1px solid green;
     margin-left: 10px;
     line-height: 80px;
 
@@ -83,6 +82,7 @@ h2 {
     float: left;
     margin-left: 2%;
     margin-top: 1%; 
+    
 }
 
 .column {
@@ -90,8 +90,24 @@ h2 {
     float: left;
     display: flex;
     justify-content: center;
+    margin-top: 12px;
     margin-left: 1%;
-    font-size: 3em; 
+    margin-right: 1%;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 600px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.8em;
+}
+
+@media only screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        
+    }
 }
 
 .row-two {
@@ -108,6 +124,7 @@ h2 {
     justify-content: center;
     margin-left: 1%;
     font-size: 2.5em; 
+
 }
 
 .row img {
@@ -124,11 +141,6 @@ html {
     justify-content: center;
 }
 
-.footer-container {
-    width: 100%;
-    margin-left: 50%;
-}
-
 .bellow-hero {
     margin-left: auto;
     margin-right: auto;
@@ -137,11 +149,29 @@ html {
 
 .bellow-hero img {
     width: 100%;
+    margin-top: 30px;
 }
 
-.p {
-    border: 1px solid red;
+h3 {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 1.8em;
 }
+
+
+#footer {
+    padding: 12px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
